@@ -8,8 +8,8 @@
 // Wi-Fi and Telegram Credentials
 char ssid[] = "Wokwi-GUEST";
 char pass[] = "";
-#define BOTtoken "8439457911:AAGBAu-hIh1WEiS__mTp7f37wR0Vce-lA78"  // your Bot Token (Get from Botfather)
-#define CHAT_ID "6645523973"
+#define BOTtoken ""  // your Bot Token (Get from Botfather)
+#define CHAT_ID ""
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 // Checks for new messages every 1 second.
