@@ -2,13 +2,13 @@
 #include <PubSubClient.h>
 
 // --- WiFi (Wokwi) ---
-const char* WIFI_SSID = "Wokwi-GUEST";
+const char* WIFI_SSID = "";
 const char* WIFI_PASS = "";
 
 // --- MQTT ---
 const char* MQTT_HOST = "test.mosquitto.org";
-const int   MQTT_PORT = 1883;
-const char* TOPIC_PUB = "slitinihel6257/lab/hello"; // <- change si tu veux
+const int   MQTT_PORT = ;// put ur port
+const char* TOPIC_PUB = ""; // <- put your topic
 
 WiFiClient wifiClient;
 PubSubClient mqtt(wifiClient);
